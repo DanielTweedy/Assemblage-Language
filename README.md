@@ -7,6 +7,15 @@ Take some of the worst syntactic sugar from common programming languages and thr
 ### Problems and Possible Pitfalls
 Since the language would implement many different features from many different programming langauges that would have no common thread except in their obtuseness, the compiler might be difficult to implement (from my limited knowledge of compilers.) This might also mean that the compiler will not be easily ported and probably faily large and complex.
 
+### Things that are annoying about a language or that would be annoying if used in this context
+- All variables MUST begin with a captial letter (prolog)
+- Free form syntax using '(' and ')' for structure (LISP/Scheme/Racket)
+- Tail recursion with "car" and "cdr" (LISP/Scheme/Racket)
+- Whitespace matters (Haskell/Python)
+- Explicit pointers and memory management (C)
+- Standard system functions like printing have to be accessed through a static System class, and make it worse (Java)
+- Only a multiline comment (Old C)
+
 ## Idea 2: High Level Assembly
 Make a "high level" assembly language that compiles directly into the instruction set assembly language of the machine and has none of the benefits of high level languages. Consider implementing the assembly in weird ways like being in trinary, poor design structure (look into x86 achitecture and maybe make it worse.)
 
