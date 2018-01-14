@@ -15,6 +15,7 @@ Since the language would implement many different features from many different p
 - Explicit pointers and memory management (C)
 - Standard system functions like printing have to be accessed through a static System class, and make it worse (Java)
 - Only a multiline comment (Old C)
+- `if` is either only ternary or bash like if: `a && b ? c : d` or `if [a && b]; then c; else d; fi` 
 
 ## Idea 2: High Level Assembly
 Make a "high level" assembly language that compiles directly into the instruction set assembly language of the machine and has none of the benefits of high level languages. Consider implementing the assembly in weird ways like being in trinary, poor design structure (look into x86 achitecture and maybe make it worse.)
